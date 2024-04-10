@@ -1,0 +1,18 @@
+---
+title: "RENAME"
+author: "Femi"
+date: '2022-12-08'
+output: html_document
+---
+
+```{r}
+
+library(ggplot2)
+X2 = runif(n = 1000, min = 0, max = 1) 
+df2=data.frame(X2) 
+ggplot(data = df2, mapping = aes(x = X2)) +   geom_histogram(color="black", fill="blue", binwidth=0.05) 
+
+
+```
+
+
